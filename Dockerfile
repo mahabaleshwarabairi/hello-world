@@ -3,7 +3,6 @@ MAINTAINER maha@gmail.com
 RUN mkdir /opt/tomcat/
 WORKDIR /opt/tomcat
 COPY /root/tomcat/ /opt/tomcat/
-WORKDIR /opt/tomcat/webapps
-COPY //var/lib/jenkins/workspace/test-pipe/webapp/target/webapp.war  /opt/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/test-pipe/webapp/target/webapp.war  /opt/tomcat/webapps/
 EXPOSE 8090
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
