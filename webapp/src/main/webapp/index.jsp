@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for Maha  prasad project DevOps Learning latest build First Project FINAL STAGE END  </h1>
+    <h1>New user Register for Maha Frist  project DevOps Learning latest build First Project FINAL STAGE END  </h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
